@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="16dp"
+    android:layout_marginEnd="16dp"
+    android:layout_marginTop="16dp">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+        <ImageView
+            android:id="@+id/vegetable_image"
+            android:layout_width="100dp"
+            android:src="@drawable/vegetable_image_not_available"
+            android:layout_height="100dp"/>
+        <TextView
+            android:id="@+id/vegetable_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/vegetable_image"
+            android:text="Onion"
+            style="@style/TextAppearance.AppCompat.Title"
+            android:layout_marginStart="16dp"/>
+        <ImageView
+            android:id="@+id/ordered_image"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignParentEnd="true"
+            android:src="@drawable/ordered_image"/>
+        <TextView
+            android:id="@+id/vegetable_type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/vegetable_name"
+            android:layout_toEndOf="@id/vegetable_image"
+            android:text="Pahadi"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"/>
+        <TextView
+            android:id="@+id/vegetable_category"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/vegetable_type"
+            android:layout_toEndOf="@id/vegetable_image"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:text="Vegetable"/>
+
+        <TextView
+            android:id="@+id/text2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/weight"
+            android:layout_below="@id/vegetable_image"/>
+
+        <TextView
+            android:id="@+id/vegetable_weight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/text2"
+            android:layout_below="@id/vegetable_image"
+            android:text="2 kg"/>
+
+        <TextView
+            android:id="@+id/vegetable_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/vegetable_category"
+            android:layout_marginTop="20dp"
+            android:text="20 Per Kg"
+            android:layout_centerHorizontal="true"/>
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

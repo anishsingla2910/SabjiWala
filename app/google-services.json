@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "356534015138",
+    "project_id": "sabjiwala-772fe",
+    "storage_bucket": "sabjiwala-772fe.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:356534015138:android:a48672a03148022c50f3fb",
+        "android_client_info": {
+          "package_name": "com.prototypes.sabjiwala"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDcCTICMUkNCGrhImIoO44VpmnRYcMLKA0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
